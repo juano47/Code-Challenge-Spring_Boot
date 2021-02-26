@@ -1,0 +1,9 @@
+spring:
+    datasource:
+        password: 'Samsung4700'
+        url: jdbc:mysql://sql230.main-hosting.eu/u552614601_curso_spring
+        username: u552614601_juano47
+    jpa:
+        database-platform: org.hibernate.dialect.MySQL5Dialect
+        hibernate:
+          ddl-auto: create
